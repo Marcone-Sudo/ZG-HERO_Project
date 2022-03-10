@@ -2,7 +2,7 @@
 
 O presente projeto tem como finalidade por em prática os conhecimentos adquiridos na linguagem de programação Groovy, que foram adquiridos ao longo da trilha JAVA/GROOVY
 do programa Acelera ZG. Para isto foi criado um projeto denominado "LinkeTinder", o qual foi inspirado no core do LinkedIn e no aplicativo de relacionamentos Tinder.
-A ideia aqui é fazer com que candidatos que estão em busca de uma oportunidade possam se conectar com empresas pelas quais seus interesses e competẽncias estejam
+A ideia aqui é fazer com que candidatos que estão em busca de uma oportunidade possam se conectar com empresas pelas quais seus interesses e competências estejam
 diretamente ligadas, e vice-versa. 
 
 Que tecnologias foram utilizadas no desenvolvimento deste projeto?
