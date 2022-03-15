@@ -5,23 +5,24 @@ class PessoaJuridica extends Pessoa {
     String pais
     List competencias = []
 
-    PessoaJuridica (String nome, String email, String estado, String cep, String descricao, String cnpj, String pais) {
+    PessoaJuridica (String nome, String email, String estado, String cep, String descricao, String cnpj, String pais, competencias) {
         super(nome, email, estado, cep, descricao)
         this.cnpj = cnpj
         this.pais = pais
+        this.competencias = competencias
     }
 
     @Override
     public String toString() {
-        return "PessoaJuridica{" + '\'' +
-                "cnpj='" + cnpj + '\'' +
-                ", pais=" + pais + '\'' +
-                ", competencias=" + competencias + '\'' +
-                "$super.nome" + '\'' +
-                "$super.email" + '\'' +
-                "$super.estado" + '\'' +
-                "$super.cep" + '\'' +
-                "$super.descricao" + '\'' +
+        return "PessoaJuridica {" +
+                "CNPJ = " + cnpj  +
+                " Pais = " + pais +
+                " Competencias = " + competencias +
+                " Nome = " + "$super.nome" +
+                " Email = " + "$super.email" +
+                " Estado = " + "$super.estado" +
+                " CEP = " + "$super.cep" +
+                " Descrição = " + "$super.descricao"
                 ""
         '}';
     }
