@@ -27,4 +27,4 @@ Link: https://trello.com/b/5pXMz9Gl/linketinder
 Bahhh que legal, mas gostaria de ver como você desenvolveu o projeto e mostrar ele funcionando. Sem problemas, se liga no vídeo que preparei para vocês!!!
 
 - Link para o vídeo 1 (Projeto Inicial): https://youtu.be/QUfWwnbb7bY
-- Link para o vídeo 2 (Atualizações e Testes Unitários): Disponível em breve
+- Link para o vídeo 2 (Atualizações e Testes Unitários): https://youtu.be/9F9pJz-1kgo
