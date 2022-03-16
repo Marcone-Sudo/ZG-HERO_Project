@@ -46,24 +46,4 @@ class PessoaJuridicaTest {
         println "Teste construtor PessoaJuridica --> OK"
     }
 
-    @Ignore
-    void PessoaJuridicaTestAuxiliar() {
-
-        def Pessoa = new PessoaJuridica("Criative Data", "criativedata@zgmail.com", "RS",
-                "85748-69", "Empresa de técnologia com foco em inteligência de mercado.",
-                "00.685.9587/2585-99", "Brasil",
-                ["Metodologias Ágeis", "Python", "Banco de Dados", "Organização", "Código Limpo",
-                 "Data Science", "Data Engineer", "Responsabilidade", "Comunicação Pessoal"])
-
-        def resultadoEsperadoPessoaJuridica = new PessoaJuridica("Criative Data", "criativedata@zgmail.com", "RS",
-                "85748-69", "Empresa de técnologia com foco em inteligência de mercado.",
-                "00.685.9587/2585-99", "Brasil",
-                ["Metodologias Ágeis", "Python", "Banco de Dados", "Organização", "Código Limpo",
-                 "Data Science", "Data Engineer", "Responsabilidade", "Comunicação Pessoal"])
-
-        assertEquals(Pessoa, resultadoEsperadoPessoaJuridica)
-
-        println "Teste Construtor PessoaJurídica --> OK"
-
-    }
 }

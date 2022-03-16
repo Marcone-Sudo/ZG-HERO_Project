@@ -2,34 +2,45 @@ package Back_end
 
 class LinkeTinderServices {
 
-    def candidatos = []
-    def empresas = []
+    List<PessoaFisica> candidatos = []
+    List<PessoaJuridica> empresas = []
 
-
-    void CadastrarNovoCandidato(nome, email, estado, cep, descricao, cpf, idade, competencias) {
+    PessoaFisica CadastrarNovoCandidato(nome, email, estado, cep, descricao, cpf, idade, competencias) {
 
         def novoCandidato = new PessoaFisica(nome, email, estado, cep, descricao, cpf, idade, competencias)
         candidatos.add(novoCandidato)
 
+        return novoCandidato
+
     }
 
-    void CadastrarNovaEmpresa(nome, email, estado, cep, descricao, cnpj, pais, competencias) {
+    PessoaJuridica CadastrarNovaEmpresa(nome, email, estado, cep, descricao, cnpj, pais, competencias) {
 
         def novaEmpresa = new PessoaJuridica(nome, email, estado, cep, descricao, cnpj, pais, competencias)
         empresas.add(novaEmpresa)
 
-    }
-
-    void FindCandidato(cpf) {
-
-        //for()
+        return novaEmpresa
 
     }
 
-    void FindEmpresa(cnpj) {
+    PessoaFisica FindCandidatoByCpf(cpf) {
 
-        //for()
+        for(PessoaFisica c : this.candidatos) {
+            if(c.cpf == cpf) {
+                return c
+            }
+        }
+        return null
+    }
 
+    PessoaJuridica FindEmpresaByCnpj(cnpj) {
+
+        for(PessoaJuridica c : this.empresas) {
+            if(c.cnpj == cnpj) {
+                return c
+            }
+        }
+        return null
     }
 
 }

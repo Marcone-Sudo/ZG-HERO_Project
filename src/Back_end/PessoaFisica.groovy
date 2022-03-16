@@ -12,6 +12,9 @@ class PessoaFisica extends Pessoa{
         this.competencias = competencias
     }
 
+    String getCpf() {
+        return cpf
+    }
 
     @Override
     public String toString() {

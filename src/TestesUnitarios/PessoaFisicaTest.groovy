@@ -1,5 +1,6 @@
 package TestesUnitarios
 
+import Back_end.LinkeTinderServices
 import Back_end.PessoaFisica
 import static org.junit.Assert.*
 import org.junit.Ignore
@@ -7,6 +8,8 @@ import org.junit.Test
 
 
 class PessoaFisicaTest {
+
+    LinkeTinderServices LTServices = new LinkeTinderServices()
 
     @Test
     void PessoaFisicaConstrutorTest() {
@@ -39,24 +42,7 @@ class PessoaFisicaTest {
         List resultadoEsperadoCompetencias = ["Python", "Java", "IA", "Programação Competitiva"]
         assert(Pessoa.competencias == resultadoEsperadoCompetencias)
 
-        println "Teste Construtor PessoaFísica --> OK"
-    }
-
-    @Ignore
-    void PessoaFisicaConstrutorTestAuxiliar() {
-
-        def Pessoa = new PessoaFisica("Anna", "annazitsky@gmail.com", "RS", "96600-000",
-                "Engenheira de Computação", "033.985.859.77", 26,
-                ["Python", "Java", "IA", "Programação Competitiva"])
-
-        def resultadoEsperadoPessoaFisica = new PessoaFisica("Anna", "annazitsky@gmail.com", "RS", "96600-000",
-                "Engenheira de Computação", "033.985.859.77", 26,
-                ["Python", "Java", "IA", "Programação Competitiva"])
-
-        assertEquals(Pessoa, resultadoEsperadoPessoaFisica)
-
-        println "Teste Construtor PessoaFísica --> OK"
-
+        println "Teste 1 Construtor PessoaFísica --> OK"
     }
 
 }

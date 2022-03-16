@@ -16,11 +16,9 @@ class LinkeTinderServicesTest {
                 "Engenheira de Computação", "033.985.859.77", 26,
                 ["Python", "Java", "IA", "Programação Competitiva"])
 
-        //Procurar por CPF
-        def resultadoEsperadoCandidato = FindCandidato()
+        assert(LTServices.FindCandidatoByCpf(Candidato.cpf))
 
-        //assertEquals(Candidato, resultadoEsperadoCandidato)
-
+        println "Teste Cadastro Novo Candidato --> OK"
 
     }
 
@@ -33,10 +31,9 @@ class LinkeTinderServicesTest {
                 ["Metodologias Ágeis", "Python", "Banco de Dados", "Organização", "Código Limpo",
                  "Data Science", "Data Engineer", "Responsabilidade", "Comunicação Pessoal"])
 
-        //Procurar por CNPJ
-        //def resultadoEsperadoEmpresa = FindEmpresa()
+        assert(LTServices.FindEmpresaByCnpj(Empresa.cnpj))
 
-        //assertEquals(Empresa, resultadoEsperadoEmpresa)
+        println "Tests Cadastro Nova Empresa --> OK"
 
     }
 }

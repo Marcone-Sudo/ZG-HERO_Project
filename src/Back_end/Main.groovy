@@ -87,7 +87,7 @@ while (acao) {
                 println "Informe o número de seu CPF"
                 String cpf = scanner.nextLine()
                 println "Informe a sua idade"
-                String idade = scanner.nextLine()
+                int idade = Integer.parseInt(scanner.nextLine())
 
                 while (true) {
 
