@@ -9,9 +9,9 @@ Que tecnologias foram utilizadas no desenvolvimento deste projeto?
 Foi feito o uso da linguagem de programação Groovy, a IDEA Intellij e o Trello.
 
 O projeto atualmente conta com:
-  - Um array de candidatos com informações referentes aos mesmos, como por exemplo (Nome, E-mail, CPF, idade, Estado, CEP e descrição pessoal), além é claro de um 
+  - Um sitema de cadastro de candidatos com informações referentes aos mesmos, como por exemplo (Nome, E-mail, CPF, idade, Estado, CEP e descrição pessoal), além é claro de um 
     array de competências para cadaum deles.
-  - Um array de empresas com informações referentes as mesmas, como por exemplo (Nome, E-mail Corporativo, CNPJ, País, Estado, CEP e Descrição da empresa), e também um array com as
+  - Um sistema de cadastro de empresas com informações referentes as mesmas, como por exemplo (Nome, E-mail Corporativo, CNPJ, País, Estado, CEP e Descrição da empresa), e também um array com as
     competências as quais a empresa em questão espera dos seus candidatos.
 
 Como eu executo o projeto?
@@ -26,4 +26,5 @@ Link: https://trello.com/b/5pXMz9Gl/linketinder
 
 Bahhh que legal, mas gostaria de ver como você desenvolveu o projeto e mostrar ele funcionando. Sem problemas, se liga no vídeo que preparei para vocês!!!
 
-Link: https://youtu.be/QUfWwnbb7bY
+- Link para o vídeo 1 (Projeto Inicial): https://youtu.be/QUfWwnbb7bY
+- Link para o vídeo 2 (Atualizações e Testes Unitários): Disponível em breve
